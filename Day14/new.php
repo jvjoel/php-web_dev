@@ -11,7 +11,7 @@
    $query ="SELECT * from registration";
    $result = mysqli_query($connect, $query);
    while ($data = mysqli_fetch_assoc($result)) {
-    echo "This my course" . $data['course'] . '<a href="updata.php?id=' .$data['id'] .'"
+    echo "This my course" . $data['course'] . '<a href="update.php?id=' .$data['id'] .'"
     class="btn btn-sm btn">Edit</a>'. '<br />';
    }
 ?>

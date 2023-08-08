@@ -12,34 +12,9 @@
     <body>
       <div class="container-fluid">
         <div class="row" style="border: 4px solid black;">
-         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-             <span class="navbar-toggler-icon"></span>
-           </button>
-
-           <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item active">
-                <a class="nav-link" href="Welcome.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="Contact.html">Contact</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="Hobbies.html">Hobbies</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="About.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="subscription.html">subscription</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="prices.html">prices</a>
-              </li>
-            </ul>
-           </div>
-         </nav>
+        <?php
+           include 'nav.html';
+          ?>
        </div>
       </div>
               <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
