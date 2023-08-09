@@ -19,7 +19,11 @@
       $data = mysqli_fetch_assoc($result)
     ?>
 
+    
     <form action="process_update.php" method="post">
+
+     <input type="hidden" name="id" value="<?php echo $data["id"]; ?>">
+
       <div class="form-group mb-3">
        <label>First Name</label>
         <input type="text" class="form-control" placeholder="Enter your First name"
@@ -47,8 +51,10 @@
      <div class="form-group mb-3">
         <label>telephone</label>
         <input type="text" class="form-control" placeholder="Enter your Course"
-        name="course" value="<?php echo $data['telephone']; ?>">
+        name="telephone" value="<?php echo $data['telephone']; ?>">
       </div>
+
+      <button type="submit" class="btn btn-info">submit</button>
     </from>
     <?php
       }

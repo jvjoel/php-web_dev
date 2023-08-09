@@ -1,14 +1,14 @@
 <?php 
-    $host = 'localhost';
-    $user = 'root';
-    $password = '';
-    $db = 'users';
-    $connect = mysqli_connect($host, $user, $password, $db);
+    if ($_SERVER["REQUEST_METHOD"] =="POST") {
+    $id = $POST["id"];
+    $fName = $POST["firstName"];
+    $sName = $POST["secondName"];
+    $email = $POST["email"];
+    $course = $POST["course"];
+    $telephone = $POST["telephone"];
 
-    if (!$connect) {
-        die("Connection failed: " . mysqli_connect_error());
-    }
 
+    require_once 'dbconnect.php';
     $query = "INSERT INTO registration (firstName, secondName, email, course, telephone) VALUES (?, ?, ?, ?, ?)";
 
 
@@ -40,5 +40,5 @@
 
     mysqli_stmt_close($stmt);
     mysqli_close($connect);
-
+    }
 ?>
