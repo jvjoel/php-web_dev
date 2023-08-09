@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.cover {
+  position: relative;
+  text-align: center;
+  padding: 100px 0;
+  background-image: url(me.jpeg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.cover h1 {
+  font-size: 46px;
+  margin-bottom: 20px;
+}
+
+.cover p{
+  font-size: 18px;
+}
