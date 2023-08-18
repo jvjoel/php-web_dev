@@ -11,7 +11,7 @@
 
     <body>
       <div class="container-fluid">
-        <div class="row" style="border: 4px solid black;">
+        <div class="row" style="border: 4px solid;">
         <?php
            include 'nav.html';
           ?>
@@ -31,14 +31,14 @@
                       <h4 class="my-0 fw-normal">Free</h4>
                     </div>
                     <div class="card-body">
-                      <h1 class="card-title pricing-card-title">$0<small class="text-body-secondary fw-light">/mo</small></h1>
+                      <h1 class="card-title pricing-card-title">$5<small class="text-body-secondary fw-light">/mo</small></h1>
                       <ul class="list-unstyled mt-3 mb-4">
                         <li>10 users included</li>
                         <li>2 GB of storage</li>
                         <li>Email support</li>
                         <li>Help center access</li>
                       </ul>
-                      <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button>
+                      <a href="subscription.php" class="w-100 btn btn-lg btn-primary" >Subscription</a>
                     </div>
                   </div>
                 </div>
@@ -55,7 +55,7 @@
                             <li>Priority email support</li>
                             <li>Help center access</li>
                         </ul>
-                        <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
+                        <a href="subscription.php" class="w-100 btn btn-lg btn-primary" >Subscription</a>
                         </div>
                   </div>
                 </div>
@@ -72,66 +72,11 @@
                           <li>Phone and email support</li>
                           <li>Help center access</li>
                         </ul>
-                        <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button>
+                        <a href="subscription.php" class="w-100 btn btn-lg btn-primary" >Subscription</a>
                       </div>
                     </div>
                   </div>
-                </div>
-                <h2 class="display-6 text-center mb-4">Compare plans</h2>
-
-                <div class="table-responsive">
-                  <table class="table text-center">
-                    <thead>
-                      <tr>
-                        <th style="width: 34%;"></th>
-                        <th style="width: 22%;">Free</th>
-                        <th style="width: 22%;">Pro</th>
-                        <th style="width: 22%;">Enterprise</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <th scope="row" class="text-start">Public</th>
-                        <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-                        <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-                        <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-                      </tr>
-                      <tr>
-                        <th scope="row" class="text-start">Private</th>
-                        <td></td>
-                        <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-                        <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-                      </tr>
-                    </tbody>
-            
-                    <tbody>
-                      <tr>
-                        <th scope="row" class="text-start">Permissions</th>
-                        <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-                        <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-                        <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-                      </tr>
-                      <tr>
-                        <th scope="row" class="text-start">Sharing</th>
-                        <td></td>
-                        <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-                        <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-                      </tr>
-                      <tr>
-                        <th scope="row" class="text-start">Unlimited members</th>
-                        <td></td>
-                        <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-                        <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-                      </tr>
-                      <tr>
-                        <th scope="row" class="text-start">Extra security</th>
-                        <td></td>
-                        <td></td>
-                        <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>            
+                </div>    
             </div>
         </main>
           

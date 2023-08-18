@@ -47,9 +47,4 @@
         <?php
         include 'footer.php'
         ?>
-        <script>
-          function func1() {
-            alert ("Successfull submit");
-          }
-        </script>
 </html>

@@ -4,7 +4,7 @@
     $sName = $_POST["secondName"];
     $email = $_POST["email"];
     $course = $_POST["course"];
-    $telephone = $_POST["telephoneNumber"];
+    $telephoneNumber = $_POST["telephoneNumber"];
 
 
         require_once 'dbconnect.php';
@@ -16,12 +16,12 @@
             die("Perpare failed: " . mysqli_error($connect));
         }
 
-        mysqli_stmt_bind_param($stmt, "sssss", $fName, $sName, $email, $course, $telephone);
+        mysqli_stmt_bind_param($stmt, "sssss", $fName, $sName, $email, $course, $telephoneNumber);
         $fName = $_POST["firstName"];
         $sName = $_POST["secondName"];
         $email = $_POST["email"];
         $course = $_POST["course"];
-        $telephone = $_POST["telephoneNumber"];
+        $telephoneNumber = $_POST["telephoneNumber"];
         if (mysqli_stmt_execute($stmt)) {
             header("Location: Contact.php");
         }

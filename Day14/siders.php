@@ -2,19 +2,22 @@
  <div id="siders" class= "carousel slide" data-bs-ride="siders">
    <div class="carousel-inner">
 
+
+     <div class="hobby"></div>
       <div class="carousel-item active">
-         <img src="x.PNG"  width="100%" height="100%">
+        <img src="x.PNG"  width="100%" height="100%">
          <div class="overlay"></div>
-         <div class="carousel-content">
-            <h1 style="font-size:60px;">Kings grounds now coming soon</h1>
-        </div>
+          <div class="carousel-content">
+          <h1 style="font-size:60px;">Kings just for You</h1>
+         </div>
       </div>
+
 
      <div class="carousel-item">
          <img src="t.JPG"  width="100%" height="100%" />
          <div class="overlay"></div>
          <div class="carousel-content">
-            <h1 style="font-size:60px;">Kings grounds now coming soon</h1>
+            <h1 style="font-size:60px;">Get an limited access</h1>
        </div>
       </div>
 
@@ -22,7 +25,8 @@
       <img src="y.PNG"  width="100%" height="100%" />
          <div class="overlay"></div>
          <div class="carousel-content">
-            <h1 style="font-size:60px;">Kings grounds now coming soon</h1>
+            <h1 style="font-size:60px;">Kings grounds now</h1>
+            <P> coming soon</P>
        </div>
       </div>
 

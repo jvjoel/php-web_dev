@@ -5,17 +5,17 @@
       <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
       <title>Home Page</title>
       <style>
-        .hobby {
-        margin-bottom: 20px;
-        padding: 20px;
+        .container-hobby {
+        margin-bottom: 10px;
+        padding: 10px;
         background-color: black;
         box-shadow: 0px 0px 5px rgb(0, 0, 0, 0.3);
        }
 
         .hobby h5 {
           color:#333;
-          padding-bottom: 10px;
-          border-bottom: 2px solid #333;
+          padding-bottom: 30px;
+          border-bottom: 80px solid #333;
         }
           
         .hobby p{
