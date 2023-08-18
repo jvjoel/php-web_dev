@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
 <?php
 
     require_once "dbconnect.php";
@@ -18,7 +10,7 @@
         if (mysqli_stmt_execute($stmt)) {
             mysqli_stmt_close($stmt);
             mysqli_close($connect);
-            header("Location:recive.php");
+            header("Location:displaydata.php");
             exit();
         }  
         
@@ -28,6 +20,3 @@
 
     }
 ?>
-</body>
-</html>
-

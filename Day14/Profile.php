@@ -72,12 +72,5 @@
        </div>
      </div>
 
-     <div class="row" style="border: 4px solid black;">
-       <footer class="bg-dark text-light">   
-         <div class="container text-center">
-           <p>&copy;2023 My Website. All right reserved Freecopy</p>
-         </div>
-       </footer>
-     </div>
    </body>
  </html>

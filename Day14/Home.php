@@ -4,35 +4,55 @@
    <head>
       <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
       <title>Home Page</title>
+      <style>
+        .hobby {
+        margin-bottom: 20px;
+        padding: 20px;
+        background-color: black;
+        box-shadow: 0px 0px 5px rgb(0, 0, 0, 0.3);
+       }
+
+        .hobby h5 {
+          color:#333;
+          padding-bottom: 10px;
+          border-bottom: 2px solid #333;
+        }
+          
+        .hobby p{
+          color: #666;
+        }
+        </style>
     </head>
     <body>
       <div class="container-fluid">
-       <div class="row" style="border: 5px solid brown;">
-       <?php
-           include 'nav.html';
+       <div class="row" style="border: 5px solid;">
+          <?php
+            include 'nav.html';
           ?>
        </div>
      </div>
 
-     <div class="row" style="border: 4px solid black;">
-       <div class="col-lg-6">
-           <h1>Welcome to My Website</h1>
-           <img src="1124787.jpg" height="100%" width="100%">
+     <div class="row" style="border: 5px solid;">
+      <div class="col-lg-6">
+      <?php
+       include 'siders.php';
+      ?>      
        </div>
 
-       <div class="col-lg-6">
-           <div class="col" style="border: 2px solid green;"></div>
-           <img src="16729.jpg" height="100%" width="100%">
-         </div>
+     <div class="col-lg-6">
+     <div class="hobby">
+        <div class="container">
+          <div type="text" class="btn btn-center">
+            <h5>Welcome to Kings.com<h5>
+            <P>For more information you can cantact us on the Contect page using the email and Phonenumber</p>   <br><p>Come and get at the lowest price<p> OR call our serive line also aviable on the contact page</br>
+            <p>Only at Kings<p>
+          </div>          
        </div>
+      </div>
+      </div>
 
-       <div class="row" style="border:4px solid blue">
-         <footer class="bg-dark text-light py-3">
-           <div class="container text-center">
-             <p>&copy;2023 My Website. All rights reserved Freecopy right</p>
-           </div>
-         </footer>
-       </div>
-     </div>
+      <?php
+       include "footer.php"
+      ?>
    </body>
 </html>

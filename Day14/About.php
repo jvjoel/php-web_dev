@@ -2,38 +2,42 @@
  <html>
     <head>
      <title>About page</title>
+     <link rel="stylesheet" href="about.css">
      <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     </head>
 
    <body>
      <div class="container-fluid">
-       <div class="row" style="border: 4px solid blue;">
+       <div class="row" style="border: 4px solid;">
           <?php
            include 'nav.html';
           ?>
        </div>
      </div>
 
-     <div class="row" style="border:4px solid green;">
-       <div class="col-lg-4" style="border: 4px solid red;">
-         <img src="1124787.jpg" width="100%" height="100%">
+     <div class="row">
+        <div class="col-lg-6">
+            <section id="team">
+            <h2>Our team</h2>
+            <ul> 
+              <li>
+                <img src="t.JPG" alt="Member 1" width="30%" height="30%">
+                  <h3>Joel</h3>
+                  <p>Co-Founder</p>
+                </li>
+              <li>
+                <img src="16729.jpg" alt="Manger"width="30%" height="30%">
+                <h3>Bob</h3>
+                <p>Director</p>
+              </li>
+          </ul>
         </div>
-
-       <div class="col-lg-4" style="border: 4px solid black;">
-         <img src="16729.jpg" width="100%" height="100%">
-       </div>
-
-       <div class="col-lg-4" style="border:4px solid red;">
-          <img src="1124787.jpg" width="100%" height="100%">
-       </div>
      </div>
 
-     <div class="row" style="border: 4px solid black;">
-      <footer class="bg-dark text-light">   
-        <div class="container text-center">
-          <p>&copy;2023 My Website. All right reserved Freecopy</p>
-        </div>
-      </footer>
+     <div class="row" style="border: 4px solid;">
+      <?php
+        include "footer.php"
+      ?>
     </div>
    </body>
  </html>

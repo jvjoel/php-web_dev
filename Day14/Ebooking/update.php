@@ -1,17 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
 <?php
 
-    require_once "dbconnect.php";
+    require_once "dbconnection.php";
     if(isset($_GET["id"]) && is_numeric($_GET['id'])) {
         $id = $_GET['id'];
-        $query ="DELETE FROM registration WHERE id=?";
+        $query ="UPDATE FROM booking WHERE id=?";
         $stmt = mysqli_prepare($connect, $query);
         mysqli_stmt_bind_param($stmt, "i", $id);
 
@@ -28,6 +20,3 @@
 
     }
 ?>
-</body>
-</html>
-
