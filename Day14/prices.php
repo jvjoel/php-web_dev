@@ -10,18 +10,8 @@
     </head>
 
     <body>
-      <div class="container-fluid">
-        <div class="row" style="border: 4px solid;">
-        <?php
-           include 'nav.html';
-          ?>
-       </div>
-      </div>
-              <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
-                <h1 class="display-4 fw-normal text-body-emphasis">Monthly plans</h1>
-                <p class="fs-5 text-body-secondary">monthly subscription plans at the lowest Prices</p>
-              </div>
-            </header>
+
+    
           
             <main>
               <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
@@ -33,8 +23,8 @@
                     <div class="card-body">
                       <h1 class="card-title pricing-card-title">$5<small class="text-body-secondary fw-light">/mo</small></h1>
                       <ul class="list-unstyled mt-3 mb-4">
-                        <li>10 users included</li>
-                        <li>2 GB of storage</li>
+                        <li>5% discount</li>
+                        <li>free deliveries</li>
                         <li>Email support</li>
                         <li>Help center access</li>
                       </ul>
@@ -50,8 +40,8 @@
                         <div class="card-body">
                         <h1 class="card-title pricing-card-title">$15<small class="text-body-secondary fw-light">/mo</small></h1>
                         <ul class="list-unstyled mt-3 mb-4">
-                            <li>20 users included</li>
-                            <li>10 GB of storage</li>
+                            <li>10% discount</li>
+                            <li>free deliveries</li>
                             <li>Priority email support</li>
                             <li>Help center access</li>
                         </ul>
@@ -67,8 +57,8 @@
                       <div class="card-body">
                         <h1 class="card-title pricing-card-title">$29<small class="text-body-secondary fw-light">/mo</small></h1>
                         <ul class="list-unstyled mt-3 mb-4">
-                          <li>30 users included</li>
-                          <li>15 GB of storage</li>
+                          <li>20% discount</li>
+                          <li>free deliveries</li>
                           <li>Phone and email support</li>
                           <li>Help center access</li>
                         </ul>

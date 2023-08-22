@@ -1,33 +1,38 @@
 <!DOCTYPE html>
+<style>
+   h1 {
+      text-align:center;
+   }
+</style>
+
  <div id="siders" class= "carousel slide" data-bs-ride="siders">
    <div class="carousel-inner">
 
 
      <div class="hobby"></div>
       <div class="carousel-item active">
-        <img src="x.PNG"  width="100%" height="100%">
+      <h1 style="font-size:60px;">Kings.com</h1>
+        <img src="white.jpg"  width="100%" height="100%">
          <div class="overlay"></div>
           <div class="carousel-content">
-          <h1 style="font-size:60px;">Kings just for You</h1>
          </div>
       </div>
 
 
      <div class="carousel-item">
-         <img src="t.JPG"  width="100%" height="100%" />
+     <h1 style="font-size:60px;">limited access</h1>
+         <img src="AdobeStock7.jpeg"  width="100%" height="100%" />
          <div class="overlay"></div>
-         <div class="carousel-content">
-            <h1 style="font-size:60px;">Get an limited access</h1>
-       </div>
+          <div class="carousel-content">  
+         </div>
       </div>
 
       <div class="carousel-item">
-      <img src="y.PNG"  width="100%" height="100%" />
+      <h1 style="font-size:60px;">Get one for yourself</h1>
+      <img src="Web.jpeg"  width="100%" height="100%" />
          <div class="overlay"></div>
-         <div class="carousel-content">
-            <h1 style="font-size:60px;">Kings grounds now</h1>
-            <P> coming soon</P>
-       </div>
+          <div class="carousel-content">   
+         </div>
       </div>
 
    </div>

@@ -3,6 +3,7 @@
     <head>
         <title>Hobbies Page</title>
         <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="bootstrap.css">
         <style>
           header {
           font-family: Arial, sans-serif;
@@ -30,21 +31,35 @@
        </div>
       </div>
      
-     <header>
-       <h1>Hobbie for life</h1>
-      </header>
-     <div class="hobby">
-       <h2>Photography<h2>
-       <P>Capture the essence of the lens</p>
+
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="hobby">
+            <h2>Nike<h2>
+            <P>One of the mot popular portwear brands in the world</p>
+          </div>
+          <div class="hobby">
+            <h2>Adids<h2>
+            <P>Another hugely popular sportswer brand,Adidas, is know for its quality shoes</p>
+          </div>
+          <div class="hobby">
+            <h2>Vans<h2>
+            <P>Vans is another globally recognized shoe brand know foe itss supreme quality footwear</p>
+          </div>
+          <div class="hobby">
+            <h2>Puma<h2>
+            <P>Puma had net revenue of $6.81billion ass of 2021, making it stand fourth</p>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <?php
+          include 'hob.php'
+          ?>
+          <div class="hobby">
+            <h2>Sketchers<h2>
+            <P>Sketchers had net revenue of $6.28 billion, and it has secured the fifth spot on our list</p>
+          </div>
       </div>
-      <div class="hobby">
-       <h2>Swimming<h2>
-       <P>Follow the wave and become one</p>
-      </div>
-      <div class="hobby">
-        <h2>Swimming<h2>
-        <P>Cultivate your own oasis of tranquility</p>
-     </div>
 
      <?php
        include "footer.php"

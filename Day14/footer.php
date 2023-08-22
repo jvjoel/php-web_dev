@@ -4,4 +4,4 @@
         <p>&copy;2023 My Website. All right reserved Freecopy</p>
      </div>
    </footer>
-   <script src="bootstrap/js/bootstrap.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>

@@ -4,11 +4,14 @@
      <title>About page</title>
      <link rel="stylesheet" href="about.css">
      <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+     <link rel="stylesheet" href="bootstrap.css">
      <style>
       
       section {
         text-align:center;
-        background-color:blue;
+        background-color:white;
+        padding: 0 10px;
+        margin: right 0px; ;
       }
 
       section ul {
@@ -35,46 +38,53 @@
 
      <div class="row">
         <div class="col-lg-6">
-            <section id="team">
-            <h2>Our team</h2>
-            <ul> 
-              <li>
-                <img src="1124787.jpg" alt="Member 1" width="30%" height="30%">
-                  <h3>Joel</h3>
-                  <p>Co-Founder</p>
-                </li>
-              <li>
-                <img src="6156.PNG" alt="Manger"width="30%" height="30%">
-                <h3>Bob</h3>
-                <p>Director</p>
-              </li>
+          <section id="team">
+          <h2>Our team</h2>
+          <ul> 
+            <li>
+              <img src="junior.jpg" alt="Manger"width="30%" height="30%">
+              <h3>Nike Air</h3>
+              <p>Jordan 1</p>
+            </li>
+            <li>
+              <img src="donald.jpg" alt="Member 1" width="30%" height="30%">
+              <h3>Nike Air</h3>
+             <p>Force 1</p>
+            </li>
+            <li>
+             <img src="hermes.jpg" alt="Manger"width="30%" height="30%">
+             <h3>Nike Air</h3>
+             <p>Director</p>
+           </li>
           </ul>
         </div>
 
-
         <div class="col-lg-6">
-            <section id="team">
-            <h2>Our team</h2>
-            <ul> 
-              <li>
-                <img src="t.JPG" alt="Member 1" width="30%" height="30%">
-                  <h3>Joel</h3>
-                  <p>Co-Founder</p>
-                </li>
-              <li>
-                <img src="16729.jpg" alt="Manger"width="30%" height="30%">
-                <h3>Bob</h3>
-                <p>Director</p>
-              </li>
+          <section id="team">
+          <h2>Our team</h2>
+          <ul> 
+            <li>
+              <img src="junior.jpg" alt="Manger"width="30%" height="30%">
+              <h3>Nike Air</h3>
+              <p>Jordan 1</p>
+            </li>
+            <li>
+              <img src="donald.jpg" alt="Member 1" width="30%" height="30%">
+              <h3>Nike Air</h3>
+              <p>Force 1</p>
+            </li>
+            <li>
+              <img src="hermes.jpg" alt="Manger"width="30%" height="30%">
+              <h3>Nike Air</h3>
+              <p>Director</p>
+            </li>
           </ul>
         </div>
      </div>
-
-     <div class="row" style="border: 4px solid;">
+   </body>
       <?php
         include "footer.php"
       ?>
-    </div>
-   </body>
+    
  </html>
 
